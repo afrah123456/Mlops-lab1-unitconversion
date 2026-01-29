@@ -13,26 +13,6 @@ Instead of a basic calculator, I created a comprehensive unit converter with:
 - Comprehensive test coverage with both pytest and unittest
 - Automated testing with GitHub Actions for continuous integration
 
-## How to Run Locally
-
-### 1. Clone the repository:
-- git clone https://github.com/afrah123456/Mlops-lab1-unitconversion.git
-- cd mlops-lab1-unitconversion
-
-### 2. Create and activate virtual environment:
-Windows:
-- python -m venv venv
-- venv\Scripts\activate
-
-### 3. Install dependencies:
-pip install -r requirements.txt
-
-### 4. Run tests:
-- Run pytest:
-- pytest test/test_pytest.py -v
-- Run unittest:
-- python test/test_unittest.py
-
 ## GitHub Actions
 This project uses automated testing with GitHub Actions:
 - **Pytest workflow**: Runs on every push and pull request
