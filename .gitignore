@@ -1,0 +1,6 @@
+venv/
+lab_01/
+__pycache__/
+*.pyc
+.idea/
+*.xml
