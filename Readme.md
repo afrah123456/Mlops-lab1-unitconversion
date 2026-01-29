@@ -16,25 +16,22 @@ Instead of a basic calculator, I created a comprehensive unit converter with:
 ## How to Run Locally
 
 ### 1. Clone the repository:
-git clone https://github.com/afrah123456/Mlops-lab1-unitconversion.git
-cd mlops-lab1-unitconversion
+- git clone https://github.com/afrah123456/Mlops-lab1-unitconversion.git
+- cd mlops-lab1-unitconversion
 
 ### 2. Create and activate virtual environment:
 Windows:
-python -m venv venv
-venv\Scripts\activate
-Mac/Linux:
-python -m venv venv
-source venv/bin/activate
+- python -m venv venv
+- venv\Scripts\activate
 
 ### 3. Install dependencies:
 pip install -r requirements.txt
 
 ### 4. Run tests:
-Run pytest:
-pytest test/test_pytest.py -v
-Run unittest:
-python test/test_unittest.py
+- Run pytest:
+- pytest test/test_pytest.py -v
+- Run unittest:
+- python test/test_unittest.py
 
 ## GitHub Actions
 This project uses automated testing with GitHub Actions:
@@ -44,13 +41,13 @@ This project uses automated testing with GitHub Actions:
 Both workflows automatically run all tests and report results.
 
 ## Example Usage
-from src.unit_converter import celsius_to_fahrenheit, miles_to_kilometers
-Convert temperature
-temp_f = celsius_to_fahrenheit(25)  # Returns 77.0°F
-Convert distance
-distance_km = miles_to_kilometers(10)  # Returns 16.0934 km
-Convert weight
-weight_kg = pounds_to_kilograms(150)  # Returns 68.04 kg
+- from src.unit_converter import celsius_to_fahrenheit, miles_to_kilometers
+- Convert temperature
+- temp_f = celsius_to_fahrenheit(25)  # Returns 77.0°F
+- Convert distance
+- distance_km = miles_to_kilometers(10)  # Returns 16.0934 km
+- Convert weight
+- weight_kg = pounds_to_kilograms(150)  # Returns 68.04 kg
 
 ## Features
 - Temperature conversions (C ↔ F ↔ K)
@@ -61,8 +58,8 @@ weight_kg = pounds_to_kilograms(150)  # Returns 68.04 kg
 - Automated CI/CD with GitHub Actions
 
 ## Author
-[Afrah Fathima]
+Afrah Fathima
 
 ## Course
-MLOps (IE-7374) - LAB1
+MLOps (IE-7374) - Lab1 (github lab)
 
