@@ -16,7 +16,7 @@ Instead of a basic calculator, I created a comprehensive unit converter with:
 ## How to Run Locally
 
 ### 1. Clone the repository:
-git clone https://github.com/YOUR-USERNAME/mlops-lab1-unitconversion.git
+git clone https://github.com/afrah123456/Mlops-lab1-unitconversion.git
 cd mlops-lab1-unitconversion
 
 ### 2. Create and activate virtual environment:
